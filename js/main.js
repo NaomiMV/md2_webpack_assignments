@@ -101,3 +101,57 @@ function myFunction() {
  * Schrijf een for loop om alle namen in de Array te laten zien
  */
 
+/* Opdracht 11: Strings samenvoegen
+ + * Maak een variabele met de naam firstName, sla je voornaam hierin op
+ + * Maak een variabele met de naam lastName, sla je achternaam hierin op
+ + * Maak een variabele fullName, en zorg ervoor dat de variabelen 'firstName' en
+ + * 'lastName' hier samen in worden opgeslagen
+ + */
+ 
+ /**
+ + * Opdracht 12: Random cijfers
+ + * console.log() een willekeurige cijfer tussen 0 en 5
+ + * console.log() een willekeurige cijfer tussen 1 en 10
+ + * console.log() een willekeurige cijfer tussen 30 en 40
+ + * console.log() een willekeurige cijfer tussen -100 en 100
+ + */
+ 
+ /**
+ + * Opdracht 13: Primitive, Array of object?
+ + * Geef in de console.log antwoord op de vraag door een boolean op true of
+ + * false te zetten
+   
+
+ +console.log('De naam van een gebruiker sla ik op in een:',
+ +            { array : false, object : false, primitive : false });
+  
+ +console.log('De naam, leeftijd en lengte van een gebruiker sla ik op in een:',
+ +            { array : false, object : false, primitive : false });
+ +
+ +console.log('Alle facturen van een zakelijke klant sla ik op in een:',
+ +            { array : false, object : false, primitive : false });
+ +
+ +console.log('Een factuur sla ik op in een:',
+ +            { array : false, object : false, primitive : false });
+ +
+ +console.log('Als ik vanuit JavaScript een menu maak met knoppen, dan sla ik de knoppen op in een:',
+ +            { array : false, object : false, primitive : false });
+ +
+ /**
+ + * Opdracht 14: Keywords
+ + * Maak 4 variabelen aan met de let keyword
+ + * Maak 4 variabelen aan met de const keyword
+ + */
+ +
+ +/**
+ + * Opdracht 15: Keywords
+ + * Geef antwoord op de volgende vragen:
+ + 
+ console.log('Wanneer gebruik je de let keyword?', 'jouw antwoord');
+ console.log('Wanneer gebruik je de const keyword', 'jouw antwoord');
+
+ + * Opdracht 16: Objects en array
+ + * Maak een object voor jezelf (naam, leeftijd, lengte)
+ + * Maak in je object een array aan genaamd 'family' en vul deze array met namen uit je familie
+ + * (objecten en arrays kunnen in elkaar opgeslagen worden)
+ + */ 
