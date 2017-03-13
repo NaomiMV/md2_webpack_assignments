@@ -28,7 +28,9 @@ module.exports = {
                 loader: 'babel-loader',
                 test: /\.js?$/,
                 exclude: /node_modules/,
-                query: { presets: [ 'env' ] }
+                query: {
+                    presets: ['env']
+                }
             },
             {
                 test: /\.scss$/,
@@ -39,7 +41,9 @@ module.exports = {
     plugins: [
         // Simply copies the files over
         new CopyWebpackPlugin([
-            { from: dir_html } // to: output.path
+            {
+                from: dir_html
+            } // to: output.path
         ]),
         // Avoid publishing files when compilation fails
         new webpack.NoErrorsPlugin(),

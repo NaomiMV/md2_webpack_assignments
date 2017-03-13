@@ -16,8 +16,13 @@
  * Geef ze een goede engelse naam en sla er iets in op wat een goed voorbeeld geeft
  * van Media Development producten (apps, sites, etc.)
  * Bijvoorbeeld een string variabele met de naam 'teacherName' en als waarde 'Berend'
+ 
+ 
  */
-
+var teacherName = "Berend",
+school = "mediacollege",
+salaris = 200;
+document.getElementById("demo").innerHTML = teacherName;
 /**
  * Opdracht 2: Arrays
  * Bedenk 3 arrays en vul ze met primitives
@@ -26,19 +31,37 @@
  * Bijvoorbeeld een Array met de naam 'students' en als waarde ['Berend', "Erwin']
  */
 
+var teachers = ["erwin",
+                        "berend",
+                        "rosmerta",
+                        "jelle",
+                        "ingrid"];
+        console.log(teachers.length);
+        
+        var students = ["Naomi", "Marley", "Miguel", "jesse"];
+        console.log(students.length);
+        
+        var scholen = ["mediacollege","groenhorst","wellant","villa parkhust","de oase","de kraanvogel"];
+        console.log(scholen.length);
+
 /**
  * Opdracht 3: Arrays push
  * Maak een lege array aan
  * push er een string in
  */
-
+var fruits = [];
+console.log(fruits.push("Kiwi Lemon Pineapple"));
 /**
  * Opdracht 4: Array splice
  * Maak een array aan en vul hem met namen
  * Gooi de naam op de 1e plek weg
  * Gooi de naam op de 3e plek weg
  */
-
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+function myFunction() {
+    
+    console.log(fruits.splice(2, 0, "Lemon", "Kiwi"));
+}
 /**
  * Opdracht 5: Objects
  * Maak van 10 objecten uit je dagelijkse leven een object
